@@ -10,7 +10,6 @@ export const Shop = () => {
         <h1> DevJunior Shop</h1>
       </div>
       <div className="products">
-        {" "}
         {PRODUCTS.map((product) => (
           <Product data={product} />
         ))}

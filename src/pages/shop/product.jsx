@@ -15,5 +15,3 @@ export const Product = (props) => {
     </div>
   );
 };
-
-//Parei no minuto 24 do video
