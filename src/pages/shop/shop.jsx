@@ -9,6 +9,7 @@ export const Shop = () => {
       <div className="shopTitle">
         <h1> DevJunior Shop</h1>
       </div>
+
       <div className="products">
         {PRODUCTS.map((product) => (
           <Product data={product} />
